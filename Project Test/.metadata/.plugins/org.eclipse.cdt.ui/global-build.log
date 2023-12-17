@@ -1,0 +1,34 @@
+
+**** Build of configuration Debug for project F28379xD_Nucleo ****
+
+"C:\\ti\\ccs1250\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="C:/Users/bapib/OneDrive/Desktop/Final_SOC_and_SOH/Project Test/F28379xD_Nucleo" --include_path="C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --include_path="C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --include_path="C:/ti/c2000/C2000Ware_5_00_00_00/device_support/f2837xd/headers/include" --include_path="C:/ti/c2000/C2000Ware_5_00_00_00/device_support/f2837xd/common/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "F28379xD_Nucleo.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"F28379xD_Nucleo.map" --stack_size=0x200 --warn_sections -i"C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="F28379xD_Nucleo_linkInfo.xml" --rom_model -o "F28379xD_Nucleo.out" "./main.obj" "../2837x_FLASH_lnk_cpu1.cmd"  -llibc.a 
+<Linking>
+Finished building target: "F28379xD_Nucleo.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F28379xD_Nucleo ****
+
+"C:\\ti\\ccs1250\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'F28379xD_Nucleo.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project F28379xD_Nucleo ****
+
+"C:\\ti\\ccs1250\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'F28379xD_Nucleo.out' is up to date.
+
+**** Build Finished ****

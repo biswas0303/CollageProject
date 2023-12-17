@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project F28379xD_Nucleo ****
+
+"C:\\ti\\ccs1250\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'F28379xD_Nucleo.out' is up to date.
+
+**** Build Finished ****
